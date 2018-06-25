@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listener.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="regression(failed)">
+    <groups>
+      <run>
+        <include name="trigonometric"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.SinTest">
+        <methods>
+          <include name="cosTest" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- tests.SinTest -->
+      <class name="tests.CosTest">
+        <methods>
+          <include name="cosTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- tests.CosTest -->
+    </classes>
+  </test> <!-- regression(failed) -->
+</suite> <!-- Failed suite [Suite] -->
