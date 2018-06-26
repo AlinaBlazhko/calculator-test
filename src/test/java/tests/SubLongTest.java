@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
  */
 public class SubLongTest {
     @Test(dataProvider = "longValuesForSum", groups = "arithmetic")
-    public void sumDoubleTest(long a, long b, long result){
+    public void subLongTest(long a, long b, long result){
         Calculator calculator = new Calculator();
         System.out.println("a = [" + a + "], b = [" + b + "], result = [" + calculator.sub(a, b) + "]");
         Assert.assertTrue(calculator.sub(a, b) == result);

@@ -7,12 +7,18 @@
     <test name="regression">
         <groups>
             <run>
-                <include name="trigonometric"/>
+                <include name="arithmetic"/>
             </run>
         </groups>
         <classes>
-            <class name="tests.CosTest"/>
-            <class name="tests.SinTest"/>
+            <!--<class name="tests.DivDoubleTest"/>-->
+            <!--<class name="tests.DivLongTest"/>-->
+            <!--<class name="tests.MultDoubleTest"/>-->
+            <!--<class name="tests.MultLongTest"/>-->
+            <!--<class name="tests.SumDoubleTest"/>-->
+            <class name="tests.PowTest"/>
+            <!--<class name="tests.SumDoubleTest"/>-->
+            <!--<class name="tests.SumLongTest"/>-->
         </classes>
     </test>
 </suite>

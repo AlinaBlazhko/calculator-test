@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 /**
  * Created by X240 on 6/24/2018.
  */
-public class SumDoubleTest {
+public class SumDoubleTest{
     @Test(dataProvider = "doubleValuesForSum", groups = "arithmetic")
     public void sumDoubleTest(double a, double b, double result){
         Calculator calculator = new Calculator();

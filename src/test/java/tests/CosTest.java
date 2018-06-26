@@ -8,10 +8,9 @@ import org.testng.annotations.Test;
 /**
  * Created by X240 on 6/24/2018.
  */
-public class CosTest {
+public class CosTest extends BaseTest{
     @Test(dataProvider = "valuesForCos", groups = "trigonometric")
     public void cosTest(double a, double result){
-        Calculator calculator = new Calculator();
         System.out.println("Cos(" + a  + "): " + Math.cos(a));
         Assert.assertTrue(calculator.cos(a) == result);
     }

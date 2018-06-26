@@ -8,10 +8,9 @@ import org.testng.annotations.Test;
 /**
  * Created by X240 on 6/24/2018.
  */
-public class MultDoubleTest {
+public class MultDoubleTest extends BaseTest{
     @Test(dataProvider = "doubleValuesForMult", groups = "arithmetic")
-    public void sumDoubleTest(double a, double b, double result){
-        Calculator calculator = new Calculator();
+    public void multDoubleTest(double a, double b, double result){
         System.out.println("a = [" + a + "], b = [" + b + "], result = [" + calculator.mult(a, b) + "]");
         Assert.assertTrue(calculator.mult(a, b) == result);
     }

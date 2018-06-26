@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
  */
 public class SinTest {
     @Test(dataProvider = "valuesForSin", groups = "trigonometric")
-    public void cosTest(double a, double result){
+    public void sinTest(double a, double result){
         Calculator calculator = new Calculator();
         System.out.println("Sin(" + a  + "): " + Math.sin(a));
         Assert.assertTrue(Math.round(calculator.sin(a)) == result);

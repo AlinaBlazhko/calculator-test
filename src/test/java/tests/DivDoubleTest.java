@@ -8,9 +8,9 @@ import org.testng.annotations.Test;
 /**
  * Created by X240 on 6/24/2018.
  */
-public class DivDoubleTest {
+public class DivDoubleTest{
     @Test(dataProvider = "doubleValuesForDiv", groups = "arithmetic")
-    public void sumDoubleTest(double a, double b, double result){
+    public void divDoubleTest(double a, double b, double result){
         Calculator calculator = new Calculator();
         System.out.println("a = [" + a + "], b = [" + b + "], result = [" + calculator.div(a, b) + "]");
         Assert.assertTrue(calculator.div(a, b) == result);

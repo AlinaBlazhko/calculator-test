@@ -2,16 +2,23 @@ package tests;
 
 import com.epam.tat.module4.Calculator;
 import org.testng.Assert;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 /**
  * Created by X240 on 6/24/2018.
  */
-public class DivLongTest {
+public class DivLongTest{
+
+    Calculator calculator;
+
+    @BeforeMethod
+    public void before(){
+        calculator = new Calculator();
+    }
+
+
     @Test(dataProvider = "longValuesForDiv", groups = "arithmetic")
     public void sumDoubleTest(long a, long b, long result){
-        Calculator calculator = new Calculator();
         System.out.println("a = [" + a + "], b = [" + b + "], result = [" + calculator.div(a, b) + "]");
         Assert.assertTrue(calculator.div(a, b) == result);
     }
@@ -24,5 +31,10 @@ public class DivLongTest {
               {-100, -5, 20},
               {20, 2, 10}
       };
+    }
+
+    @AfterMethod
+    public void after(){
+        calculator = null;
     }
 }

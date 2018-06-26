@@ -8,10 +8,9 @@ import org.testng.annotations.Test;
 /**
  * Created by X240 on 6/24/2018.
  */
-public class IsNegativeTest {
+public class IsNegativeTest extends BaseTest{
     @Test(dataProvider = "valuesForIsNegative", groups = "other")
-    public void sumDoubleTest(long a, boolean result){
-        Calculator calculator = new Calculator();
+    public void isNegativeTest(long a, boolean result){
         System.out.println("a = [" + a + "], result = [" + calculator.isNegative(a) + "]");
         Assert.assertTrue(calculator.isNegative(a) == result);
     }

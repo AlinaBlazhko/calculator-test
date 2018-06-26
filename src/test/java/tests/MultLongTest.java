@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
  */
 public class MultLongTest {
     @Test(dataProvider = "longValuesForMult", groups = "arithmetic")
-    public void sumDoubleTest(long a, long b, long result){
+    public void multLongTest(long a, long b, long result){
         Calculator calculator = new Calculator();
         System.out.println("a = [" + a + "], b = [" + b + "], result = [" + calculator.mult(a, b) + "]");
         Assert.assertTrue(calculator.mult(a, b) == result);
