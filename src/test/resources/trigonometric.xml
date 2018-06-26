@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Suite">
-    <listeners>
-        <listener class-name="listener.TestListeners"/>
-    </listeners>
-    <test name="regression">
+<suite name="Suite" parallel="tests" thread-count="5">
+    <test name="Test classes for trigonometric methods">
         <groups>
             <run>
-                <include name="arithmetic"/>
+                <include name="trigonometric"/>
             </run>
         </groups>
         <classes>
-            <!--<class name="tests.DivDoubleTest"/>-->
-            <!--<class name="tests.DivLongTest"/>-->
-            <!--<class name="tests.MultDoubleTest"/>-->
-            <!--<class name="tests.MultLongTest"/>-->
-            <!--<class name="tests.SumDoubleTest"/>-->
-            <class name="tests.PowTest"/>
-            <!--<class name="tests.SumDoubleTest"/>-->
-            <!--<class name="tests.SumLongTest"/>-->
+            <class name="tests.testng.CosTest"/>
+            <class name="tests.testng.CtgTest"/>
+            <class name="tests.testng.SinTest"/>
+            <class name="tests.testng.TgTest"/>
         </classes>
     </test>
 </suite>

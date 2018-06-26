@@ -1,6 +1,5 @@
-package tests;
+package tests.testng;
 
-import com.epam.tat.module4.Calculator;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

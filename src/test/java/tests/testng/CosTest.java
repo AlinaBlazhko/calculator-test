@@ -1,6 +1,5 @@
-package tests;
+package tests.testng;
 
-import com.epam.tat.module4.Calculator;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -18,10 +17,10 @@ public class CosTest extends BaseTest{
     @DataProvider(name = "valuesForCos")
     public Object[][] valuesForCos(){
 
-            return new Object[][]{
-                    {Math.PI/2, 0.0},
-                    {0, 1.0},
-                    {Math.PI, -1.0}
-            };
+        return new Object[][]{
+                {Math.PI/2, 0.0},
+                {0, 1.0},
+                {Math.PI, -1.0}
+        };
     }
 }

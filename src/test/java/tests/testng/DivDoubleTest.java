@@ -1,4 +1,4 @@
-package tests;
+package tests.testng;
 
 import com.epam.tat.module4.Calculator;
 import org.testng.Assert;
@@ -8,10 +8,9 @@ import org.testng.annotations.Test;
 /**
  * Created by X240 on 6/24/2018.
  */
-public class DivDoubleTest{
+public class DivDoubleTest extends BaseTest{
     @Test(dataProvider = "doubleValuesForDiv", groups = "arithmetic")
     public void divDoubleTest(double a, double b, double result){
-        Calculator calculator = new Calculator();
         System.out.println("a = [" + a + "], b = [" + b + "], result = [" + calculator.div(a, b) + "]");
         Assert.assertTrue(calculator.div(a, b) == result);
     }

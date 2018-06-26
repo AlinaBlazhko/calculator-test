@@ -1,4 +1,4 @@
-package tests;
+package tests.testng;
 
 import com.epam.tat.module4.Calculator;
 import org.testng.ITestContext;
@@ -11,12 +11,12 @@ public class BaseTest {
 
     protected Calculator calculator;
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void before(){
         calculator = new Calculator();
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void after(){
         calculator = null;
     }
