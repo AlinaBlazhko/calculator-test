@@ -8,16 +8,16 @@
             </run>
         </groups>
         <classes>
-            <class name="tests.testng.DivDoubleTest"/>
-            <class name="tests.testng.DivLongTest"/>
-            <class name="tests.testng.MultDoubleTest"/>
-            <class name="tests.testng.MultLongTest"/>
-            <class name="tests.testng.PowTest"/>
-            <class name="tests.testng.SqrtTest"/>
-            <class name="tests.testng.SubDoubleTest"/>
-            <class name="tests.testng.SubLongTest"/>
-            <class name="tests.testng.SumDoubleTest"/>
-            <class name="tests.testng.SubLongTest"/>
+            <class name="testng.tests.DivDoubleTest"/>
+            <class name="testng.tests.DivLongTest"/>
+            <class name="testng.tests.MultDoubleTest"/>
+            <class name="testng.tests.MultLongTest"/>
+            <class name="testng.tests.PowTest"/>
+            <class name="testng.tests.SqrtTest"/>
+            <class name="testng.tests.SubDoubleTest"/>
+            <class name="testng.tests.SubLongTest"/>
+            <class name="testng.tests.SumDoubleTest"/>
+            <class name="testng.tests.SubLongTest"/>
         </classes>
     </test>
 </suite>

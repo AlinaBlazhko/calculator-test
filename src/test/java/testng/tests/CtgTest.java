@@ -1,4 +1,4 @@
-package tests.testng;
+package testng.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 /**
  * Created by X240 on 6/26/2018.
  */
-public class CtgTest  extends BaseTest{
+public class CtgTest  extends BaseTest {
     @Test(dataProvider = "valuesForCos", groups = "trigonometric")
     public void ctgTest(double a, double result){
         System.out.println("Ctg(" + a  + "): " + calculator.ctg(a));

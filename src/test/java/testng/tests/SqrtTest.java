@@ -1,4 +1,4 @@
-package tests.testng;
+package testng.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 /**
  * Created by X240 on 6/26/2018.
  */
-public class SqrtTest  extends BaseTest{
+public class SqrtTest  extends BaseTest {
     @Test(dataProvider = "valuesForPow", groups = "arithmetic")
     public void sqrtTest(double a, double resulte){
         System.out.println("a = [" + a + "], resulte = [" + calculator.sqrt(a) + "]");

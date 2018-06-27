@@ -1,6 +1,5 @@
-package tests.testng;
+package testng.tests;
 
-import com.epam.tat.module4.Calculator;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -8,7 +7,7 @@ import org.testng.annotations.Test;
 /**
  * Created by X240 on 6/24/2018.
  */
-public class DivDoubleTest extends BaseTest{
+public class DivDoubleTest extends BaseTest {
     @Test(dataProvider = "doubleValuesForDiv", groups = "arithmetic")
     public void divDoubleTest(double a, double b, double result){
         System.out.println("a = [" + a + "], b = [" + b + "], result = [" + calculator.div(a, b) + "]");

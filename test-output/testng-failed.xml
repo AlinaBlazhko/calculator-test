@@ -8,20 +8,20 @@
       </run>
     </groups>
     <classes>
-      <class name="tests.testng.DivLongTest">
+      <class name="testng.tests.DivLongTest">
         <methods>
-          <include name="after"/>
           <include name="before"/>
+          <include name="after"/>
           <include name="sumDoubleTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.testng.DivLongTest -->
-      <class name="tests.testng.DivDoubleTest">
+      </class> <!-- testng.tests.DivLongTest -->
+      <class name="testng.tests.DivDoubleTest">
         <methods>
-          <include name="after"/>
-          <include name="before"/>
           <include name="divDoubleTest" invocation-numbers="0"/>
+          <include name="before"/>
+          <include name="after"/>
         </methods>
-      </class> <!-- tests.testng.DivDoubleTest -->
+      </class> <!-- testng.tests.DivDoubleTest -->
     </classes>
   </test> <!-- Test classes for arithmetic methods(failed) -->
 </suite> <!-- Failed suite [Suite (1)] -->

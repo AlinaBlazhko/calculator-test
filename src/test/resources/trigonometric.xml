@@ -8,10 +8,10 @@
             </run>
         </groups>
         <classes>
-            <class name="tests.testng.CosTest"/>
-            <class name="tests.testng.CtgTest"/>
-            <class name="tests.testng.SinTest"/>
-            <class name="tests.testng.TgTest"/>
+            <class name="testng.tests.CosTest"/>
+            <class name="testng.tests.CtgTest"/>
+            <class name="testng.tests.SinTest"/>
+            <class name="testng.tests.TgTest"/>
         </classes>
     </test>
 </suite>

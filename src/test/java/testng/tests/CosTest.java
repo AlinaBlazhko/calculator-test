@@ -1,4 +1,4 @@
-package tests.testng;
+package testng.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 /**
  * Created by X240 on 6/24/2018.
  */
-public class CosTest extends BaseTest{
+public class CosTest extends BaseTest {
     @Test(dataProvider = "valuesForCos", groups = "trigonometric")
     public void cosTest(double a, double result){
         System.out.println("Cos(" + a  + "): " + Math.cos(a));

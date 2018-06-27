@@ -1,6 +1,5 @@
-package tests.testng;
+package testng.tests;
 
-import com.epam.tat.module4.Calculator;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -8,7 +7,7 @@ import org.testng.annotations.Test;
 /**
  * Created by X240 on 6/24/2018.
  */
-public class SinTest extends BaseTest{
+public class SinTest extends BaseTest {
     @Test(dataProvider = "valuesForSin", groups = "trigonometric")
     public void sinTest(double a, double result){
         System.out.println("Sin(" + a  + "): " + Math.sin(a));

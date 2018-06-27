@@ -1,13 +1,12 @@
-package tests.testng;
+package testng.tests;
 
-import com.epam.tat.module4.Calculator;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
 /**
  * Created by X240 on 6/24/2018.
  */
-public class DivLongTest extends BaseTest{
+public class DivLongTest extends BaseTest {
 
     @Test(dataProvider = "longValuesForDiv", groups = "arithmetic")
     public void sumDoubleTest(long a, long b, long result) {

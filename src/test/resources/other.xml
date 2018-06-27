@@ -8,8 +8,8 @@
             </run>
         </groups>
         <classes>
-            <class name="tests.testng.IsNegativeTest"/>
-            <class name="tests.testng.IsPositiveTest"/>
+            <class name="testng.tests.IsNegativeTest"/>
+            <class name="testng.tests.IsPositiveTest"/>
         </classes>
     </test>
 </suite>

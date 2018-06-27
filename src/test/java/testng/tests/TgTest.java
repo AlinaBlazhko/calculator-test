@@ -1,4 +1,4 @@
-package tests.testng;
+package testng.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
