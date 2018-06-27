@@ -2,7 +2,6 @@ package testng.tests;
 
 import com.epam.tat.module4.Calculator;
 import org.testng.annotations.*;
-
 /**
  * Created by X240 on 6/26/2018.
  */

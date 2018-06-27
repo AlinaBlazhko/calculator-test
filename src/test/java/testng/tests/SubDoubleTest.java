@@ -8,10 +8,9 @@ import org.testng.annotations.Test;
 /**
  * Created by X240 on 6/24/2018.
  */
-public class SubDoubleTest {
+public class SubDoubleTest extends BaseTest{
     @Test(dataProvider = "doubleValuesForSub", groups = "arithmetic")
     public void subDoubleTest(double a, double b, double result){
-        Calculator calculator = new Calculator();
         System.out.println("a = [" + a + "], b = [" + b + "], result = [" + calculator.sub(a, b) + "]");
         Assert.assertTrue(calculator.sub(a, b) == result);
     }
