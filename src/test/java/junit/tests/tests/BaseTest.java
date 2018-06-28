@@ -1,10 +1,8 @@
-package junit.tests;
+package junit.tests.tests;
 
 import com.epam.tat.module4.Calculator;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.junit.After;
+import org.junit.Before;
 
 /**
  * Created by X240 on 6/27/2018.
@@ -12,12 +10,12 @@ import org.testng.annotations.BeforeMethod;
 public class BaseTest {
     Calculator calculator;
 
-    @BeforeEach
+    @Before
     public void before(){
         calculator = new Calculator();
     }
 
-    @AfterEach
+    @After
     public void after(){
         calculator = null;
     }

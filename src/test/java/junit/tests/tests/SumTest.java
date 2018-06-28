@@ -1,24 +1,24 @@
-package junit.tests;
+package junit.tests.tests;
 
 
 import org.junit.Assert;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
 
+import static org.junit.Assert.assertThat;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * Created by X240 on 6/27/2018.
  */
-
+@RunWith(Parameterized.class)
 public class SumTest extends BaseTest {
 
-//    @Test
-//    public void test(){
-//        Assert.assertTrue(true);
-//    }
     @ParameterizedTest
     @CsvSource({
             "2.6, 3.4, 6.0",
@@ -46,4 +46,14 @@ public class SumTest extends BaseTest {
         System.out.println("a = [" + a + "], b = [" + b + "], result = [" + calculator.sum(a, b) + "]");
         Assert.assertTrue(calculator.sum(a, b) == result);
     }
+
+//    @Test
+//    @Parameters
+//    public void test(long a, long b, long result){
+//        assertTrue(calculator.sum(a, b) == result);
+//    }
+//
+//    public Object[] parametersForTest(){
+//        return (a(2), 1, 0),
+//    }
 }

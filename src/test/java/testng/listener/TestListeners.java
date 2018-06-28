@@ -12,16 +12,15 @@ import java.util.Arrays;
 public class TestListeners implements ITestListener {
 
     public void onTestStart(ITestResult result) {
-//        System.out.println("on Test Start: " + result.getName());
+        System.out.println("on Test Start: " + result.getName());
     }
 
     public void onTestSuccess(ITestResult result) {
-//        System.out.println("on Test Success: " + result.getName());
+        System.out.println("on Test Success: " + result.getName());
     }
 
     public void onTestFailure(ITestResult result) {
         System.out.println("Failed " + result.getName() + " "+ Arrays.toString(result.getParameters()));
-
     }
 
     public void onTestSkipped(ITestResult result) {
