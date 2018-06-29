@@ -15,13 +15,6 @@
           <include name="sumDoubleTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- testng.tests.DivLongTest -->
-      <class name="testng.tests.DivDoubleTest">
-        <methods>
-          <include name="divDoubleTest" invocation-numbers="0"/>
-          <include name="before"/>
-          <include name="after"/>
-        </methods>
-      </class> <!-- testng.tests.DivDoubleTest -->
     </classes>
   </test> <!-- Test classes for arithmetic methods(failed) -->
 </suite> <!-- Failed suite [Suite (1)] -->

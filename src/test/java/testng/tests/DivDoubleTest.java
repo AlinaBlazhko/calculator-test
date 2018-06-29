@@ -11,16 +11,16 @@ public class DivDoubleTest extends BaseTest {
     @Test(dataProvider = "doubleValuesForDiv", groups = "arithmetic")
     public void divDoubleTest(double a, double b, double result){
         System.out.println("a = [" + a + "], b = [" + b + "], result = [" + calculator.div(a, b) + "]");
-        Assert.assertTrue(calculator.div(a, b) == result);
+        Assert.assertTrue(calculator.div(a, b) == result, a + "/" +b + " = " + calculator.div(a, b));
     }
 
     @DataProvider(name = "doubleValuesForDiv")
     public Object[][] valuesForSum(){
       return new Object[][]{
-              {2.2, 0.0, 4.0},
               {8.0, -4.0, -2.0},
               {-100.0, -5.0, 20.0},
-              {20.0, 2.0, 10.0}
+              {20.0, 2.0, 10.0},
+              {10.0, 0, Double.POSITIVE_INFINITY}
       };
     }
 }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="10" ignored="0" total="53" passed="43">
+<testng-results skipped="0" failed="9" ignored="0" total="53" passed="44">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="59" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+  <suite name="Suite" duration-ms="106" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
     <groups>
       <group name="trigonometric">
         <method signature="CosTest.cosTest(double, double)[pri:0, instance:testng.tests.CosTest@65e579dc]" name="cosTest" class="testng.tests.CosTest"/>
@@ -11,13 +11,17 @@
         <method signature="TgTest.cosTest(double, double)[pri:0, instance:testng.tests.TgTest@768debd]" name="cosTest" class="testng.tests.TgTest"/>
       </group> <!-- trigonometric -->
     </groups>
-    <test name="Test classes for trigonometric methods" duration-ms="59" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+    <test name="Test classes for trigonometric methods" duration-ms="106" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
       <class name="testng.tests.TgTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.TgTest@768debd]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.TgTest@768debd]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.TgTest@768debd]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="cosTest(double, double)[pri:0, instance:testng.tests.TgTest@768debd]" name="cosTest" duration-ms="1" started-at="2018-06-29T08:47:34Z" data-provider="valuesForCos" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="cosTest(double, double)[pri:0, instance:testng.tests.TgTest@768debd]" name="cosTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="valuesForCos" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -33,19 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cosTest -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.TgTest@768debd]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.TgTest@768debd]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.TgTest@768debd]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.TgTest@768debd]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.TgTest@768debd]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="FAIL" signature="cosTest(double, double)[pri:0, instance:testng.tests.TgTest@768debd]" name="cosTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForCos" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="FAIL" signature="cosTest(double, double)[pri:0, instance:testng.tests.TgTest@768debd]" name="cosTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="valuesForCos" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -95,11 +95,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cosTest -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.TgTest@768debd]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.TgTest@768debd]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="FAIL" signature="cosTest(double, double)[pri:0, instance:testng.tests.TgTest@768debd]" name="cosTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForCos" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="FAIL" signature="cosTest(double, double)[pri:0, instance:testng.tests.TgTest@768debd]" name="cosTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="valuesForCos" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -149,17 +149,17 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cosTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.TgTest@768debd]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.TgTest@768debd]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- testng.tests.TgTest -->
       <class name="testng.tests.SinTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SinTest@b065c63]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SinTest@b065c63]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="sinTest(double, double)[pri:0, instance:testng.tests.SinTest@b065c63]" name="sinTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForSin" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="sinTest(double, double)[pri:0, instance:testng.tests.SinTest@b065c63]" name="sinTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="valuesForSin" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -175,11 +175,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sinTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SinTest@b065c63]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SinTest@b065c63]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="sinTest(double, double)[pri:0, instance:testng.tests.SinTest@b065c63]" name="sinTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForSin" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="sinTest(double, double)[pri:0, instance:testng.tests.SinTest@b065c63]" name="sinTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="valuesForSin" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -195,15 +195,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sinTest -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SinTest@b065c63]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SinTest@b065c63]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SinTest@b065c63]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SinTest@b065c63]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="sinTest(double, double)[pri:0, instance:testng.tests.SinTest@b065c63]" name="sinTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForSin" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="sinTest(double, double)[pri:0, instance:testng.tests.SinTest@b065c63]" name="sinTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="valuesForSin" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -219,7 +219,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sinTest -->
-        <test-method status="FAIL" signature="sinTest(double, double)[pri:0, instance:testng.tests.SinTest@b065c63]" name="sinTest" duration-ms="1" started-at="2018-06-29T08:47:34Z" data-provider="valuesForSin" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SinTest@b065c63]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="sinTest(double, double)[pri:0, instance:testng.tests.SinTest@b065c63]" name="sinTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="valuesForSin" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -269,29 +273,25 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sinTest -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SinTest@b065c63]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SinTest@b065c63]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SinTest@b065c63]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SinTest@b065c63]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SinTest@b065c63]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SinTest@b065c63]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SinTest@b065c63]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- testng.tests.SinTest -->
       <class name="testng.tests.CtgTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.CtgTest@61baa894]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.CtgTest@61baa894]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="FAIL" signature="ctgTest(double, double)[pri:0, instance:testng.tests.CtgTest@61baa894]" name="ctgTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForCos" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="FAIL" signature="ctgTest(double, double)[pri:0, instance:testng.tests.CtgTest@61baa894]" name="ctgTest" duration-ms="1" started-at="2018-06-29T12:42:54Z" data-provider="valuesForCos" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -341,7 +341,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ctgTest -->
-        <test-method status="PASS" signature="ctgTest(double, double)[pri:0, instance:testng.tests.CtgTest@61baa894]" name="ctgTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForCos" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.CtgTest@61baa894]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="ctgTest(double, double)[pri:0, instance:testng.tests.CtgTest@61baa894]" name="ctgTest" duration-ms="1" started-at="2018-06-29T12:42:54Z" data-provider="valuesForCos" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -357,19 +361,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ctgTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.CtgTest@61baa894]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.CtgTest@61baa894]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.CtgTest@61baa894]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.CtgTest@61baa894]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="FAIL" signature="ctgTest(double, double)[pri:0, instance:testng.tests.CtgTest@61baa894]" name="ctgTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForCos" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="FAIL" signature="ctgTest(double, double)[pri:0, instance:testng.tests.CtgTest@61baa894]" name="ctgTest" duration-ms="1" started-at="2018-06-29T12:42:54Z" data-provider="valuesForCos" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -419,21 +415,25 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ctgTest -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.CtgTest@61baa894]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.CtgTest@61baa894]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.CtgTest@61baa894]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.CtgTest@61baa894]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.CtgTest@61baa894]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- testng.tests.CtgTest -->
       <class name="testng.tests.CosTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.CosTest@65e579dc]" name="before" is-config="true" duration-ms="6" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.CosTest@65e579dc]" name="before" is-config="true" duration-ms="13" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="FAIL" signature="cosTest(double, double)[pri:0, instance:testng.tests.CosTest@65e579dc]" name="cosTest" duration-ms="4" started-at="2018-06-29T08:47:34Z" data-provider="valuesForCos" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="FAIL" signature="cosTest(double, double)[pri:0, instance:testng.tests.CosTest@65e579dc]" name="cosTest" duration-ms="3" started-at="2018-06-29T12:42:54Z" data-provider="valuesForCos" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -483,23 +483,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cosTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.CosTest@65e579dc]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.CosTest@65e579dc]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.CosTest@65e579dc]" name="before" is-config="true" duration-ms="1" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.CosTest@65e579dc]" name="before" is-config="true" duration-ms="1" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.CosTest@65e579dc]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="FAIL" signature="cosTest(double, double)[pri:0, instance:testng.tests.CosTest@65e579dc]" name="cosTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForCos" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="FAIL" signature="cosTest(double, double)[pri:0, instance:testng.tests.CosTest@65e579dc]" name="cosTest" duration-ms="1" started-at="2018-06-29T12:42:54Z" data-provider="valuesForCos" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -549,7 +537,19 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cosTest -->
-        <test-method status="FAIL" signature="cosTest(double, double)[pri:0, instance:testng.tests.CosTest@65e579dc]" name="cosTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForCos" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.CosTest@65e579dc]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.CosTest@65e579dc]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.CosTest@65e579dc]" name="before" is-config="true" duration-ms="2" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="cosTest(double, double)[pri:0, instance:testng.tests.CosTest@65e579dc]" name="cosTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="valuesForCos" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -599,14 +599,14 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cosTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.CosTest@65e579dc]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.CosTest@65e579dc]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- testng.tests.CosTest -->
     </test> <!-- Test classes for trigonometric methods -->
   </suite> <!-- Suite -->
-  <suite name="Suite (1)" duration-ms="34" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+  <suite name="Suite (1)" duration-ms="69" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
     <groups>
       <group name="arithmetic">
         <method signature="DivDoubleTest.divDoubleTest(double, double, double)[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="divDoubleTest" class="testng.tests.DivDoubleTest"/>
@@ -620,13 +620,17 @@ at java.lang.Thread.run(Thread.java:748)
         <method signature="SumDoubleTest.sumDoubleTest(double, double, double)[pri:0, instance:testng.tests.SumDoubleTest@21a06946]" name="sumDoubleTest" class="testng.tests.SumDoubleTest"/>
       </group> <!-- arithmetic -->
     </groups>
-    <test name="Test classes for arithmetic methods" duration-ms="34" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+    <test name="Test classes for arithmetic methods" duration-ms="69" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
       <class name="testng.tests.SubDoubleTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="before" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="subDoubleTest(double, double, double)[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="subDoubleTest" duration-ms="1" started-at="2018-06-29T08:47:34Z" data-provider="doubleValuesForSub" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="subDoubleTest(double, double, double)[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="subDoubleTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="doubleValuesForSub" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -647,15 +651,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subDoubleTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="subDoubleTest(double, double, double)[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="subDoubleTest" duration-ms="1" started-at="2018-06-29T08:47:34Z" data-provider="doubleValuesForSub" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="subDoubleTest(double, double, double)[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="subDoubleTest" duration-ms="1" started-at="2018-06-29T12:42:54Z" data-provider="doubleValuesForSub" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -676,11 +672,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subDoubleTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="subDoubleTest(double, double, double)[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="subDoubleTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="doubleValuesForSub" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="subDoubleTest(double, double, double)[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="subDoubleTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="doubleValuesForSub" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -701,23 +701,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subDoubleTest -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="subDoubleTest(double, double, double)[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="subDoubleTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="doubleValuesForSub" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="subDoubleTest(double, double, double)[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="subDoubleTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="doubleValuesForSub" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -738,13 +730,17 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subDoubleTest -->
-      </class> <!-- testng.tests.SubDoubleTest -->
-      <class name="testng.tests.PowTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.PowTest@73035e27]" name="before" is-config="true" duration-ms="1" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SubDoubleTest@3ecf72fd]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="twoPow2(double, double, double)[pri:0, instance:testng.tests.PowTest@73035e27]" name="twoPow2" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForPow" finished-at="2018-06-29T08:47:34Z">
+      </class> <!-- testng.tests.SubDoubleTest -->
+      <class name="testng.tests.PowTest">
+        <test-method status="PASS" signature="twoPow2(double, double, double)[pri:0, instance:testng.tests.PowTest@73035e27]" name="twoPow2" duration-ms="1" started-at="2018-06-29T12:42:54Z" data-provider="valuesForPow" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -765,15 +761,23 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoPow2 -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.PowTest@73035e27]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.PowTest@73035e27]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.PowTest@73035e27]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.PowTest@73035e27]" name="before" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.PowTest@73035e27]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="twoPow2(double, double, double)[pri:0, instance:testng.tests.PowTest@73035e27]" name="twoPow2" duration-ms="1" started-at="2018-06-29T08:47:34Z" data-provider="valuesForPow" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.PowTest@73035e27]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="twoPow2(double, double, double)[pri:0, instance:testng.tests.PowTest@73035e27]" name="twoPow2" duration-ms="1" started-at="2018-06-29T12:42:54Z" data-provider="valuesForPow" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -794,15 +798,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoPow2 -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.PowTest@73035e27]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.PowTest@73035e27]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="twoPow2(double, double, double)[pri:0, instance:testng.tests.PowTest@73035e27]" name="twoPow2" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForPow" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="twoPow2(double, double, double)[pri:0, instance:testng.tests.PowTest@73035e27]" name="twoPow2" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="valuesForPow" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -823,76 +819,17 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoPow2 -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.PowTest@73035e27]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.PowTest@73035e27]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.PowTest@73035e27]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- testng.tests.PowTest -->
       <class name="testng.tests.DivDoubleTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="FAIL" signature="divDoubleTest(double, double, double)[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="divDoubleTest" duration-ms="1" started-at="2018-06-29T08:47:34Z" data-provider="doubleValuesForDiv" finished-at="2018-06-29T08:47:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2.2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[4.0]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at testng.tests.DivDoubleTest.divDoubleTest(DivDoubleTest.java:14)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- divDoubleTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="divDoubleTest(double, double, double)[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="divDoubleTest" duration-ms="1" started-at="2018-06-29T08:47:34Z" data-provider="doubleValuesForDiv" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="divDoubleTest(double, double, double)[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="divDoubleTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="doubleValuesForDiv" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -913,19 +850,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divDoubleTest -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="divDoubleTest(double, double, double)[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="divDoubleTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="doubleValuesForDiv" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="divDoubleTest(double, double, double)[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="divDoubleTest" duration-ms="1" started-at="2018-06-29T12:42:54Z" data-provider="doubleValuesForDiv" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -946,7 +875,19 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divDoubleTest -->
-        <test-method status="PASS" signature="divDoubleTest(double, double, double)[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="divDoubleTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="doubleValuesForDiv" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="divDoubleTest(double, double, double)[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="divDoubleTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="doubleValuesForDiv" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -967,21 +908,50 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divDoubleTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
+        <test-method status="PASS" signature="divDoubleTest(double, double, double)[pri:0, instance:testng.tests.DivDoubleTest@75412c2f]" name="divDoubleTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="doubleValuesForDiv" finished-at="2018-06-29T12:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Infinity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divDoubleTest -->
       </class> <!-- testng.tests.DivDoubleTest -->
       <class name="testng.tests.MultLongTest">
-        <test-method status="PASS" signature="multLongTest(long, long, long)[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="multLongTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="longValuesForMult" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="multLongTest(long, long, long)[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="multLongTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="longValuesForMult" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1002,19 +972,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multLongTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="multLongTest(long, long, long)[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="multLongTest" duration-ms="1" started-at="2018-06-29T08:47:34Z" data-provider="longValuesForMult" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="multLongTest(long, long, long)[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="multLongTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="longValuesForMult" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1035,11 +1001,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multLongTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="multLongTest(long, long, long)[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="multLongTest" duration-ms="1" started-at="2018-06-29T08:47:34Z" data-provider="longValuesForMult" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="multLongTest(long, long, long)[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="multLongTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="longValuesForMult" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1060,23 +1030,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multLongTest -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="multLongTest(long, long, long)[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="multLongTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="longValuesForMult" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="multLongTest(long, long, long)[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="multLongTest" duration-ms="1" started-at="2018-06-29T12:42:54Z" data-provider="longValuesForMult" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1097,91 +1055,17 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multLongTest -->
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.MultLongTest@f5f2bb7]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
       </class> <!-- testng.tests.MultLongTest -->
-      <class name="testng.tests.SqrtTest">
-        <test-method status="PASS" signature="sqrtTest(double, double)[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="sqrtTest" duration-ms="1" started-at="2018-06-29T08:47:34Z" data-provider="valuesForPow" finished-at="2018-06-29T08:47:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[4.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sqrtTest -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="sqrtTest(double, double)[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="sqrtTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForPow" finished-at="2018-06-29T08:47:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[100.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[10.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sqrtTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="sqrtTest(double, double)[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="sqrtTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForPow" finished-at="2018-06-29T08:47:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-900.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[30.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sqrtTest -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- testng.tests.SqrtTest -->
       <class name="testng.tests.MultDoubleTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="before" is-config="true" duration-ms="1" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="multDoubleTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="doubleValuesForMult" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="multDoubleTest" duration-ms="1" started-at="2018-06-29T12:42:54Z" data-provider="doubleValuesForMult" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1202,15 +1086,19 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multDoubleTest -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="multDoubleTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="doubleValuesForMult" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="multDoubleTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="doubleValuesForMult" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1231,7 +1119,19 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multDoubleTest -->
-        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="multDoubleTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="doubleValuesForMult" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="multDoubleTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="doubleValuesForMult" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1252,19 +1152,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multDoubleTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="before" is-config="true" duration-ms="1" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="multDoubleTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="doubleValuesForMult" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="multDoubleTest(double, double, double)[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="multDoubleTest" duration-ms="3" started-at="2018-06-29T12:42:54Z" data-provider="doubleValuesForMult" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1285,13 +1177,87 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multDoubleTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.MultDoubleTest@13b6d03]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- testng.tests.MultDoubleTest -->
+      <class name="testng.tests.SqrtTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="before" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="before" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="sqrtTest(double, double)[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="sqrtTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="valuesForPow" finished-at="2018-06-29T12:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sqrtTest -->
+        <test-method status="PASS" signature="sqrtTest(double, double)[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="sqrtTest" duration-ms="3" started-at="2018-06-29T12:42:54Z" data-provider="valuesForPow" finished-at="2018-06-29T12:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sqrtTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="sqrtTest(double, double)[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="sqrtTest" duration-ms="1" started-at="2018-06-29T12:42:54Z" data-provider="valuesForPow" finished-at="2018-06-29T12:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-900.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sqrtTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.SqrtTest@64c64813]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- testng.tests.SqrtTest -->
       <class name="testng.tests.SumDoubleTest">
-        <test-method status="PASS" signature="sumDoubleTest(double, double, double)[pri:0, instance:testng.tests.SumDoubleTest@21a06946]" name="sumDoubleTest" duration-ms="1" started-at="2018-06-29T08:47:34Z" data-provider="doubleValuesForSum" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="sumDoubleTest(double, double, double)[pri:0, instance:testng.tests.SumDoubleTest@21a06946]" name="sumDoubleTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="doubleValuesForSum" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1312,28 +1278,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumDoubleTest -->
-        <test-method status="PASS" signature="sumDoubleTest(double, double, double)[pri:0, instance:testng.tests.SumDoubleTest@21a06946]" name="sumDoubleTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="doubleValuesForSum" finished-at="2018-06-29T08:47:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[100.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[100.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sumDoubleTest -->
-        <test-method status="PASS" signature="sumDoubleTest(double, double, double)[pri:0, instance:testng.tests.SumDoubleTest@21a06946]" name="sumDoubleTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="doubleValuesForSum" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="sumDoubleTest(double, double, double)[pri:0, instance:testng.tests.SumDoubleTest@21a06946]" name="sumDoubleTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="doubleValuesForSum" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1354,9 +1299,34 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumDoubleTest -->
+        <test-method status="PASS" signature="sumDoubleTest(double, double, double)[pri:0, instance:testng.tests.SumDoubleTest@21a06946]" name="sumDoubleTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="doubleValuesForSum" finished-at="2018-06-29T12:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumDoubleTest -->
       </class> <!-- testng.tests.SumDoubleTest -->
       <class name="testng.tests.DivLongTest">
-        <test-method status="FAIL" signature="sumDoubleTest(long, long, long)[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="sumDoubleTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="longValuesForDiv" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="sumDoubleTest(long, long, long)[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="sumDoubleTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="longValuesForDiv" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1408,19 +1378,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumDoubleTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="before" is-config="true" duration-ms="1" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="sumDoubleTest(long, long, long)[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="sumDoubleTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="longValuesForDiv" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="sumDoubleTest(long, long, long)[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="sumDoubleTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="longValuesForDiv" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1441,11 +1407,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumDoubleTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="sumDoubleTest(long, long, long)[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="sumDoubleTest" duration-ms="1" started-at="2018-06-29T08:47:34Z" data-provider="longValuesForDiv" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="before" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="sumDoubleTest(long, long, long)[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="sumDoubleTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="longValuesForDiv" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1466,23 +1436,19 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumDoubleTest -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="before" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="sumDoubleTest(long, long, long)[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="sumDoubleTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="longValuesForDiv" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="sumDoubleTest(long, long, long)[pri:0, instance:testng.tests.DivLongTest@282ba1e]" name="sumDoubleTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="longValuesForDiv" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1505,7 +1471,7 @@ at java.lang.Thread.run(Thread.java:748)
         </test-method> <!-- sumDoubleTest -->
       </class> <!-- testng.tests.DivLongTest -->
       <class name="testng.tests.SubLongTest">
-        <test-method status="PASS" signature="subLongTest(long, long, long)[pri:0, instance:testng.tests.SubLongTest@483bf400]" name="subLongTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="longValuesForSum" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="subLongTest(long, long, long)[pri:0, instance:testng.tests.SubLongTest@483bf400]" name="subLongTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="longValuesForSum" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1526,28 +1492,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subLongTest -->
-        <test-method status="PASS" signature="subLongTest(long, long, long)[pri:0, instance:testng.tests.SubLongTest@483bf400]" name="subLongTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="longValuesForSum" finished-at="2018-06-29T08:47:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[143]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[143]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- subLongTest -->
-        <test-method status="PASS" signature="subLongTest(long, long, long)[pri:0, instance:testng.tests.SubLongTest@483bf400]" name="subLongTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="longValuesForSum" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="subLongTest(long, long, long)[pri:0, instance:testng.tests.SubLongTest@483bf400]" name="subLongTest" duration-ms="1" started-at="2018-06-29T12:42:54Z" data-provider="longValuesForSum" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1568,7 +1513,28 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subLongTest -->
-        <test-method status="PASS" signature="subLongTest(long, long, long)[pri:0, instance:testng.tests.SubLongTest@483bf400]" name="subLongTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="longValuesForSum" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="subLongTest(long, long, long)[pri:0, instance:testng.tests.SubLongTest@483bf400]" name="subLongTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="longValuesForSum" finished-at="2018-06-29T12:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[143]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[143]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subLongTest -->
+        <test-method status="PASS" signature="subLongTest(long, long, long)[pri:0, instance:testng.tests.SubLongTest@483bf400]" name="subLongTest" duration-ms="2" started-at="2018-06-29T12:42:54Z" data-provider="longValuesForSum" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1589,7 +1555,7 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subLongTest -->
-        <test-method status="PASS" signature="subLongTest(long, long, long)[pri:0, instance:testng.tests.SubLongTest@483bf400]" name="subLongTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="longValuesForSum" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="subLongTest(long, long, long)[pri:0, instance:testng.tests.SubLongTest@483bf400]" name="subLongTest" duration-ms="1" started-at="2018-06-29T12:42:54Z" data-provider="longValuesForSum" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1613,20 +1579,16 @@ at java.lang.Thread.run(Thread.java:748)
       </class> <!-- testng.tests.SubLongTest -->
     </test> <!-- Test classes for arithmetic methods -->
   </suite> <!-- Suite (1) -->
-  <suite name="Suite (0)" duration-ms="7" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+  <suite name="Suite (0)" duration-ms="9" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
     <groups>
       <group name="other">
         <method signature="IsNegativeTest.isNegativeTest(long, boolean)[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="isNegativeTest" class="testng.tests.IsNegativeTest"/>
         <method signature="IsPositiveTest.isPositiveTest(long, boolean)[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="isPositiveTest" class="testng.tests.IsPositiveTest"/>
       </group> <!-- other -->
     </groups>
-    <test name="Test classes for other methods" duration-ms="7" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+    <test name="Test classes for other methods" duration-ms="9" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
       <class name="testng.tests.IsNegativeTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="isNegativeTest(long, boolean)[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="isNegativeTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForIsNegative" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="isNegativeTest(long, boolean)[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="isNegativeTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="valuesForIsNegative" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1642,15 +1604,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isNegativeTest -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="before" is-config="true" duration-ms="1" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="isNegativeTest(long, boolean)[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="isNegativeTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForIsNegative" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="isNegativeTest(long, boolean)[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="isNegativeTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="valuesForIsNegative" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1666,15 +1628,19 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isNegativeTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="isNegativeTest(long, boolean)[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="isNegativeTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForIsNegative" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="before" is-config="true" duration-ms="2" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="isNegativeTest(long, boolean)[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="isNegativeTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="valuesForIsNegative" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1690,17 +1656,21 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isNegativeTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.IsNegativeTest@d70c109]" name="after" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- testng.tests.IsNegativeTest -->
       <class name="testng.tests.IsPositiveTest">
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="isPositiveTest(long, boolean)[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="isPositiveTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForIsPositive" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="isPositiveTest(long, boolean)[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="isPositiveTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="valuesForIsPositive" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1716,15 +1686,11 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isPositiveTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-        <test-method status="PASS" signature="isPositiveTest(long, boolean)[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="isPositiveTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForIsPositive" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="isPositiveTest(long, boolean)[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="isPositiveTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="valuesForIsPositive" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1740,11 +1706,15 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isPositiveTest -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="before" is-config="true" duration-ms="1" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="isPositiveTest(long, boolean)[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="isPositiveTest" duration-ms="0" started-at="2018-06-29T08:47:34Z" data-provider="valuesForIsPositive" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="isPositiveTest(long, boolean)[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="isPositiveTest" duration-ms="0" started-at="2018-06-29T12:42:54Z" data-provider="valuesForIsPositive" finished-at="2018-06-29T12:42:54Z">
           <params>
             <param index="0">
               <value>
@@ -1760,18 +1730,14 @@ at java.lang.Thread.run(Thread.java:748)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isPositiveTest -->
-        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="after" is-config="true" duration-ms="0" started-at="2018-06-29T12:42:54Z" finished-at="2018-06-29T12:42:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="before()[pri:0, instance:testng.tests.IsPositiveTest@17ed40e0]" name="before" is-config="true" duration-ms="0" started-at="2018-06-29T08:47:34Z" finished-at="2018-06-29T08:47:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
       </class> <!-- testng.tests.IsPositiveTest -->
     </test> <!-- Test classes for other methods -->
   </suite> <!-- Suite (0) -->
-  <suite name="Default Suite" duration-ms="0" started-at="2018-06-29T08:47:35Z" finished-at="2018-06-29T08:47:35Z">
+  <suite name="Default Suite" duration-ms="0" started-at="2018-06-29T12:42:56Z" finished-at="2018-06-29T12:42:56Z">
     <groups>
     </groups>
   </suite> <!-- Default Suite -->
