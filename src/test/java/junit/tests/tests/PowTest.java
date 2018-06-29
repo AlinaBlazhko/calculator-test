@@ -33,7 +33,7 @@ public class PowTest extends BaseTest {
 
 
     @org.junit.Test()
-    public void test() {
+    public void powTest() {
         System.out.println("Test for pow(double a)");
         System.out.println("a = [" + this.first + "], power = [" + this.power + "], expected result = [" + calculator.pow(this.first, this.power) + "]");
         Assert.assertTrue(calculator.pow(this.first, this.power) == this.expectedResult);

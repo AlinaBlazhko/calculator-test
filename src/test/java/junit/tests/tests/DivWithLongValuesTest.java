@@ -34,7 +34,7 @@ public class DivWithLongValuesTest extends BaseTest {
 
 
     @org.junit.Test()
-    public void test() {
+    public void divWithLongValuesTest() {
         System.out.println("Test for div(long a, long b)");
         System.out.println("a = [" + this.first + "], b = [" + this.second + "], result = [" + calculator.div(this.first, this.second) + "]");
         Assert.assertTrue(calculator.div(this.first, this.second) == this.expectedSum);

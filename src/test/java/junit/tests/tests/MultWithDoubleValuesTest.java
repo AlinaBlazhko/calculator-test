@@ -34,7 +34,7 @@ public class MultWithDoubleValuesTest extends BaseTest {
 
 
     @org.junit.Test()
-    public void test() {
+    public void multWithDoubleValuesTest() {
         System.out.println("Test for mult(double a, double b)");
         System.out.println("a = [" + this.first + "], b = [" + this.second + "], result = [" + calculator.mult(this.first, this.second) + "]");
         Assert.assertTrue(calculator.mult(this.first, this.second) == this.expectedResult);

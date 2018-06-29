@@ -32,7 +32,7 @@ public class SinTest extends BaseTest {
 
 
     @org.junit.Test()
-    public void test() {
+    public void sinTest() {
         System.out.println("Test for sin(double a)");
         System.out.println("a = [" + this.first + "], expected result = [" + calculator.sin(this.first) + "]");
         Assert.assertTrue(calculator.sin(this.first) == this.expectedResult);

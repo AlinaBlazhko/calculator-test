@@ -31,7 +31,7 @@ public class CtgTest extends BaseTest {
 
 
     @org.junit.Test()
-    public void test() {
+    public void ctgTest() {
         System.out.println("Test for ctg(double a)");
         System.out.println("a = [" + this.first + "], expected result = [" + calculator.ctg(this.first) + "]");
         Assert.assertTrue(calculator.ctg(this.first) == this.expectedResult);

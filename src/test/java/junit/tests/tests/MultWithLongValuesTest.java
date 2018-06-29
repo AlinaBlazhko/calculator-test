@@ -34,7 +34,7 @@ public class MultWithLongValuesTest extends BaseTest {
 
 
     @org.junit.Test()
-    public void test() {
+    public void multWithLongValuesTest() {
         System.out.println("Test for mult(long a, long b)");
         System.out.println("a = [" + this.first + "], b = [" + this.second + "], result = [" + calculator.mult(this.first, this.second) + "]");
         Assert.assertTrue(calculator.mult(this.first, this.second) == this.expectedResult);

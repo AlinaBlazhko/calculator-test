@@ -30,7 +30,7 @@ public class SqrtTest extends BaseTest {
     }
 
     @org.junit.Test()
-    public void test() {
+    public void sqrtTest() {
         System.out.println("Test for sqrt(double a)");
         System.out.println("a = [" + this.first + "], expected result = [" + calculator.sqrt(this.first) + "]");
         Assert.assertTrue(calculator.sqrt(this.first) == this.expectedResult);

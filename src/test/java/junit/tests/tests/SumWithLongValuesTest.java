@@ -35,7 +35,7 @@ public class SumWithLongValuesTest extends BaseTest {
     }
 
     @org.junit.Test()
-    public void test() {
+    public void sumWithLongValuesTest() {
         System.out.println("Test for sum(long a, long b)");
         System.out.println("a = [" + this.first + "], b = [" + this.second + "], result = [" + calculator.sum(this.first, this.second) + "]");
         Assert.assertTrue(calculator.sum(this.first, this.second) == this.expectedResult);

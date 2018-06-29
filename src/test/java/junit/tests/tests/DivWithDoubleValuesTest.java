@@ -34,7 +34,7 @@ public class DivWithDoubleValuesTest extends BaseTest {
 
 
     @org.junit.Test()
-    public void test() {
+    public void divWithDoubleValuesTest() {
         System.out.println("Test for div(double a, double b)");
         System.out.println("a = [" + this.first + "], b = [" + this.second + "], result = [" + calculator.div(this.first, this.second) + "]");
         Assert.assertTrue(calculator.div(this.first, this.second) == this.expectedResult);

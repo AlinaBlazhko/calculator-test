@@ -34,7 +34,7 @@ public class SumWithDoubleValuesTest extends BaseTest {
     }
 
     @Test()
-    public void test() {
+    public void sumWithDoubleValuesTest() {
         System.out.println("Test for sum(double a, double b)");
         System.out.println("a = [" + first + "], b = [" + second + "], result = [" + calculator.sum(first, second) + "]");
         Assert.assertTrue(calculator.sum(first, second) == this.expectedResult);
