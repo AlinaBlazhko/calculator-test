@@ -1,7 +1,6 @@
 package junit.tests.tests;
 
 import org.junit.Assert;
-import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
@@ -11,14 +10,15 @@ import java.util.Collection;
 
 
 @RunWith(Parameterized.class)
-public class SumWithDoubleValuesTest extends BaseTest {
+public class MultWithDoubleValuesTest extends BaseTest {
 
     @Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
-                {2.2, 2.8, 5.0},
-                {3.0, -4.0, -1.0},
-                {100.0, 0.0, 100.0}
+                {2.2, 2.0, 4.0},
+                {3.0, -4.0, -12.0},
+                {100.0, 0.0, 0.0},
+                {-2.0, -2.0, 4.0}
         });
     }
 
@@ -26,18 +26,18 @@ public class SumWithDoubleValuesTest extends BaseTest {
     private double second;
     private double expectedResult;
 
-
-    public SumWithDoubleValuesTest(double first, double second, double expectedResult) {
+    public MultWithDoubleValuesTest(double first, double second, double expectedResult) {
         this.first = first;
         this.second = second;
         this.expectedResult = expectedResult;
     }
 
-    @Test()
+
+    @org.junit.Test()
     public void test() {
-        System.out.println("Test for sum(double a, double b)");
-        System.out.println("a = [" + first + "], b = [" + second + "], result = [" + calculator.sum(first, second) + "]");
-        Assert.assertTrue(calculator.sum(first, second) == this.expectedResult);
+        System.out.println("Test for mult(double a, double b)");
+        System.out.println("a = [" + this.first + "], b = [" + this.second + "], result = [" + calculator.mult(this.first, this.second) + "]");
+        Assert.assertTrue(calculator.mult(this.first, this.second) == this.expectedResult);
     }
 
 

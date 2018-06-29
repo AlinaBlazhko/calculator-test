@@ -10,27 +10,26 @@ import java.util.Arrays;
 import java.util.Collection;
 
 
-//@RunWith(RunnerJunit.class)
-//@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 @RunWith(Parameterized.class)
 @DisplayName(value = "Test for sub(double a, double b)")
-public class SubWithDoubleValuesTest extends BaseTest {
+public class SubWithLongValuesTest extends BaseTest {
 
     @Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
-                {2.2, 2.2, 0.0},
-                {3.0, -4.0, 7.0},
-                {100.0, 0.0, 100.0},
-                {-20.0, -10.0, -10.0}
+                {2, 2, 0},
+                {5, -10, 15},
+                {143, 0, 143},
+                {-120, -120, 0},
+                {-130, -120, -10}
         });
     }
 
-    private double first;
-    private double second;
-    private double expectedResult;
+    private long first;
+    private long second;
+    private long expectedResult;
 
-    public SubWithDoubleValuesTest(double first, double second, double expectedResult) {
+    public SubWithLongValuesTest(long first, long second, long expectedResult) {
         this.first = first;
         this.second = second;
         this.expectedResult = expectedResult;
@@ -39,9 +38,9 @@ public class SubWithDoubleValuesTest extends BaseTest {
 
     @org.junit.Test()
     public void test() {
-        System.out.println("Test for sub(double a, double b)");
+        System.out.println("Test for sub(long a, long b)");
         System.out.println("a = [" + this.first + "], b = [" + this.second + "], result = [" + calculator.sub(this.first, this.second) + "]");
-        Assert.assertTrue(calculator.sub(this.first, this.second) == this.expectedResult);
+        Assert.assertTrue(calculator.sub(first, second) == expectedResult);
     }
 
 

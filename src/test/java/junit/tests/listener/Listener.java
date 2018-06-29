@@ -41,7 +41,7 @@ public class Listener  extends RunListener {
     @Override
     public void testFinished(Description description) throws Exception {
         //Write the test name when it is finished.
-        System.out.println(description.getMethodName() + " test is finished...\n");
+        System.out.println(description.getMethodName() + " test is finished success :) \n");
     }
 
     @Override
