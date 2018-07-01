@@ -38,7 +38,7 @@ public class SubWithDoubleValuesTest extends BaseTest {
 
 
     @org.junit.Test()
-    public void test() {
+    public void subWithDoubleValuesTest() {
         System.out.println("Test for sub(double a, double b)");
         System.out.println("a = [" + this.first + "], b = [" + this.second + "], result = [" + calculator.sub(this.first, this.second) + "]");
         Assert.assertTrue(calculator.sub(this.first, this.second) == this.expectedResult);

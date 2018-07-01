@@ -31,7 +31,7 @@ public class CosTest extends BaseTest {
 
 
     @org.junit.Test()
-    public void test() {
+    public void cosTest() {
         System.out.println("Test for cos(double a)");
         System.out.println("a = [" + this.first + "], expected result = [" + calculator.cos(this.first) + "]");
         Assert.assertTrue(calculator.cos(this.first) == this.expectedResult);

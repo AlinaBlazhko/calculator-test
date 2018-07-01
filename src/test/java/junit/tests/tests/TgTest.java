@@ -31,7 +31,7 @@ public class TgTest extends BaseTest {
 
 
     @org.junit.Test()
-    public void test() {
+    public void tgTest() {
         System.out.println("Test for tg(double a)");
         System.out.println("a = [" + this.first + "], expected result = [" + calculator.tg(this.first) + "]");
         Assert.assertTrue(calculator.tg(this.first) == this.expectedResult);

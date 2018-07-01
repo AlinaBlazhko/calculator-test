@@ -31,7 +31,7 @@ public class IsPositiveTest extends BaseTest {
 
 
     @org.junit.Test()
-    public void test() {
+    public void isPositiveTest() {
         System.out.println("Test for isPositive(long a)");
         System.out.println("a = [" + this.first + "], expected result = [" + calculator.isPositive(this.first) + "]");
         Assert.assertTrue(calculator.isPositive(this.first) == this.expectedResult);

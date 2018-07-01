@@ -36,7 +36,7 @@ public class SubWithLongValuesTest extends BaseTest {
 
 
     @org.junit.Test()
-    public void test() {
+    public void subWithLongValuesTest() {
         System.out.println("Test for sub(long a, long b)");
         System.out.println("a = [" + this.first + "], b = [" + this.second + "], result = [" + calculator.sub(this.first, this.second) + "]");
         Assert.assertTrue(calculator.sub(first, second) == expectedResult);

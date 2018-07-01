@@ -31,7 +31,7 @@ public class IsNegativeTest extends BaseTest {
 
 
     @org.junit.Test()
-    public void test() {
+    public void isNegativeTest() {
         System.out.println("Test for isNegative(long a)");
         System.out.println("a = [" + this.first + "], expected result = [" + calculator.isNegative(this.first) + "]");
         Assert.assertTrue(calculator.isNegative(this.first) == this.expectedResult);

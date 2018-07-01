@@ -5,7 +5,6 @@ import junit.tests.tests.*;
 import org.junit.runner.JUnitCore;
 
 public class RunnerJunit {
-
     public static void main(String[] args) {
         JUnitCore runner = new JUnitCore();
 
