@@ -2,6 +2,7 @@
 Tests for calculator-1.0.jar
 
 Bugs: 
+~~~
    public double cos(double a) { 
       return Math.sin(a); // should be return Math.cos(a) 
    } 
@@ -11,6 +12,6 @@ Bugs:
    public double ctg(double a) { 
       return Math.tanh(a); // this method returns tangent instead cotangent 
    }
-
+~~~
 In this fraimwork should failed 9 tests on each Runne (RennerJunit and RebberTestNG)
 
