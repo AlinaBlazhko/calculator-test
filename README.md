@@ -11,6 +11,6 @@ public double tg(double a) {
 public double ctg(double a) {
     return Math.tanh(a); // this method returns tangent instead cotangent
 }
-  
+ 
 In this fraimwork should failed 9 tests on each Runne (RennerJunit and RebberTestNG)
 
