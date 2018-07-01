@@ -17,9 +17,10 @@ public class SumLongTest extends BaseTest{
     @DataProvider(name = "longValuesForSum")
     public Object[][] valuesForSum(){
       return new Object[][]{
-              {2, 2, 5},
+              {2, 2, 4},
               {5, -10, -5},
-              {143, 0, 143}
+              {143, 0, 143},
+              {-2, -6, -8}
       };
     }
 }

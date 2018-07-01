@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Created by X240 on 6/24/2018.
  */
-public class Runner {
+public class RunnerTestNG {
     public static void main(String[] args) {
         TestNG testNg = new TestNG();
         testNg.addListener(new TestListeners());

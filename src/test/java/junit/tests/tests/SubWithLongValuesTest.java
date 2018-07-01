@@ -20,7 +20,6 @@ public class SubWithLongValuesTest extends BaseTest {
                 {2, 2, 0},
                 {5, -10, 15},
                 {143, 0, 143},
-                {-120, -120, 0},
                 {-130, -120, -10}
         });
     }

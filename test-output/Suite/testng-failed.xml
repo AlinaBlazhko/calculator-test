@@ -10,7 +10,7 @@
     <classes>
       <class name="testng.tests.TgTest">
         <methods>
-          <include name="cosTest" invocation-numbers="1 2"/>
+          <include name="cosTest" invocation-numbers="0 1 2"/>
           <include name="before"/>
           <include name="after"/>
         </methods>
@@ -22,18 +22,11 @@
           <include name="cosTest" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- testng.tests.CosTest -->
-      <class name="testng.tests.SinTest">
-        <methods>
-          <include name="before"/>
-          <include name="after"/>
-          <include name="sinTest" invocation-numbers="3"/>
-        </methods>
-      </class> <!-- testng.tests.SinTest -->
       <class name="testng.tests.CtgTest">
         <methods>
           <include name="before"/>
           <include name="after"/>
-          <include name="ctgTest" invocation-numbers="0 2"/>
+          <include name="ctgTest" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- testng.tests.CtgTest -->
     </classes>

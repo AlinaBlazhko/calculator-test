@@ -15,9 +15,9 @@ public class TgTest extends BaseTest {
     @Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
-                {Math.PI / 4, 1.0},
-                {0.0, 0.0},
-                {Math.PI, 0.0}
+                {Math.PI/4, Math.tan(Math.PI/4)},
+                {0.0, Math.tan(0.0)},
+                {Math.PI, Math.tan(Math.PI)}
         });
     }
 

@@ -15,10 +15,9 @@ public class SinTest extends BaseTest {
     @Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
-                {Math.PI/2, 1.0},
-                {0, 0.0},
-                {Math.PI, 0.0},
-                {Math.PI/6, 0.5}
+                {Math.PI/2, Math.sin(Math.PI/2)},
+                {0, Math.sin(0.0)},
+                {Math.PI, Math.sin(Math.PI)}
         });
     }
 

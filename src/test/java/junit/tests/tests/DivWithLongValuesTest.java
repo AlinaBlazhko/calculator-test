@@ -15,10 +15,9 @@ public class DivWithLongValuesTest extends BaseTest {
     @Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
-                {2, 0, 0},
                 {8, -4, -2},
                 {-100, -5, 20},
-                {20, 2, 10}
+                {20, 2, 10},
         });
     }
 

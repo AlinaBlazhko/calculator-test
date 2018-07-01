@@ -19,7 +19,7 @@ public class CtgTest  extends BaseTest {
 
         return new Object[][]{
                 {Math.PI/4, 1.0},
-                {0.0, 0.0},
+                {0.0, Double.POSITIVE_INFINITY},
                 {Math.PI/2, 0.0}
 
         };

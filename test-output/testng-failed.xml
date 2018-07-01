@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Suite (1)]" parallel="tests">
-  <test thread-count="10" name="Test classes for arithmetic methods(failed)" parallel="tests">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Test classes for trigonometric methods(failed)" parallel="tests">
     <groups>
       <run>
-        <include name="arithmetic"/>
+        <include name="trigonometric"/>
       </run>
     </groups>
     <classes>
-      <class name="testng.tests.DivLongTest">
+      <class name="testng.tests.TgTest">
         <methods>
-          <include name="before"/>
-          <include name="after"/>
-          <include name="sumDoubleTest" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- testng.tests.DivLongTest -->
-      <class name="testng.tests.DivDoubleTest">
-        <methods>
-          <include name="divDoubleTest" invocation-numbers="0"/>
+          <include name="cosTest" invocation-numbers="0 1 2"/>
           <include name="before"/>
           <include name="after"/>
         </methods>
-      </class> <!-- testng.tests.DivDoubleTest -->
+      </class> <!-- testng.tests.TgTest -->
+      <class name="testng.tests.CosTest">
+        <methods>
+          <include name="before"/>
+          <include name="after"/>
+          <include name="cosTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- testng.tests.CosTest -->
+      <class name="testng.tests.CtgTest">
+        <methods>
+          <include name="before"/>
+          <include name="after"/>
+          <include name="ctgTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- testng.tests.CtgTest -->
     </classes>
-  </test> <!-- Test classes for arithmetic methods(failed) -->
-</suite> <!-- Failed suite [Suite (1)] -->
+  </test> <!-- Test classes for trigonometric methods(failed) -->
+</suite> <!-- Failed suite [Suite] -->

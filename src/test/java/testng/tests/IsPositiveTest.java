@@ -19,7 +19,8 @@ public class IsPositiveTest extends BaseTest {
       return new Object[][]{
               {-100, false},
               {0, false},
-              {40, true}
+              {40, true},
+
       };
     }
 }

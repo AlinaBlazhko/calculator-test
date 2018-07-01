@@ -17,10 +17,10 @@ public class SumWithLongValuesTest extends BaseTest {
     @Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
-                {0, 0, 0},
-                {1, 1, 2},
-                {-2, 0, -2},
-                {-9, 5, -4}
+                {2, 2, 4},
+                {5, -10, -5},
+                {143, 0, 143},
+                {-2, -6, -8}
         });
     }
 

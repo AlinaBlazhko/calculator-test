@@ -18,7 +18,8 @@ public class SumWithDoubleValuesTest extends BaseTest {
         return Arrays.asList(new Object[][]{
                 {2.2, 2.8, 5.0},
                 {3.0, -4.0, -1.0},
-                {100.0, 0.0, 100.0}
+                {100.0, 0.0, 100.0},
+                {-100.0, -23.0, -123.0}
         });
     }
 

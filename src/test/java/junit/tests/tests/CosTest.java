@@ -15,7 +15,7 @@ public class CosTest extends BaseTest {
     @Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
-                {Math.PI/2, 0.0},
+                {Math.PI/2, Math.cos(Math.PI/2)},
                 {0, 1.0},
                 {Math.PI, -1.0}
         });

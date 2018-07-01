@@ -15,10 +15,10 @@ public class DivWithDoubleValuesTest extends BaseTest {
     @Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][]{
-                {2.2, 2.0, 4.0},
-                {3.0, -4.0, -12.0},
-                {100.0, 0.0, 0.0},
-                {-2.0, -2.0, 4.0}
+                {2.2, 0.0, Double.POSITIVE_INFINITY},
+                {8.0, -4.0, -2.0},
+                {-100.0, -5.0, 20.0},
+                {20.0, 2.0, 10.0}
         });
     }
 

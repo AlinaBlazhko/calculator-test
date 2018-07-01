@@ -19,7 +19,8 @@ public class SqrtTest  extends BaseTest {
         return new Object[][]{
                 {4.0, 2.0},
                 {100.0, 10.0},
-                {-900.0, 30.0}
+                {-900.0, 30.0},
+                {0.25, 0.5}
         };
     }
 }

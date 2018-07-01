@@ -17,10 +17,15 @@ public class DivLongTest extends BaseTest {
     @DataProvider(name = "longValuesForDiv")
     public Object[][] valuesForSum() {
         return new Object[][]{
-                {2, 0, 0},
                 {8, -4, -2},
                 {-100, -5, 20},
-                {20, 2, 10}
+                {20, 2, 10},
         };
+    }
+
+    @Test(expectedExceptions = NumberFormatException.class)
+    public void expectedExceptionTest(){
+        System.out.println("a = [" + 2 + "], b = [" + 0 + "], result = [" + calculator.div(2, 0) + "]");
+        calculator.div(2, 0);
     }
 }

@@ -17,7 +17,8 @@ public class PowTest extends BaseTest {
         return Arrays.asList(new Object[][]{
                 {2.0, 2.0, 4.0},
                 {10.0, 0.0, 1.0},
-                {100.0, -1.0, 0.01}
+                {100.0, -1.0, 0.01},
+                {-3.0, 3.0, -27.0}
         });
     }
 

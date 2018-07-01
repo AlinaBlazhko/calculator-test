@@ -31,7 +31,7 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at testng.Runner.main(testng.Runner.java:24)
+at testng.RunnerTestNG.main(testng.RunnerTestNG.java:24)
 ]]>
     </error>
   </testcase> <!-- testSumLongType -->
