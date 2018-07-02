@@ -11,6 +11,9 @@ public class SqrtTest  extends BaseTest {
     @Test(dataProvider = "valuesForPow", groups = "arithmetic")
     public void sqrtTest(double a, double resulte){
         System.out.println("a = [" + a + "], resulte = [" + calculator.sqrt(a) + "]");
+        if(a < 0){
+            Assert.assertFalse(calculator.sqrt(a) == calculator.sqrt(Math.abs(a)));
+        }
         Assert.assertTrue(calculator.sqrt(a) == resulte);
     }
 

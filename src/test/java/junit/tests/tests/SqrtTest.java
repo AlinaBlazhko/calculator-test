@@ -34,6 +34,9 @@ public class SqrtTest extends BaseTest {
     public void sqrtTest() {
         System.out.println("Test for sqrt(double a)");
         System.out.println("a = [" + this.first + "], expected result = [" + calculator.sqrt(this.first) + "]");
+        if(this.first < 0){
+            Assert.assertFalse(calculator.sqrt(this.first) == calculator.sqrt(Math.abs(this.first)));
+        }
         Assert.assertTrue(calculator.sqrt(this.first) == this.expectedResult);
     }
 }

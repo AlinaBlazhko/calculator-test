@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="5" name="Test classes for trigonometric methods(failed)" parallel="tests">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Arithmetic methods]" parallel="tests">
+  <test thread-count="10" name="Test classes for arithmetic methods(failed)" parallel="tests">
     <groups>
       <run>
-        <include name="trigonometric"/>
+        <include name="arithmetic"/>
       </run>
     </groups>
     <classes>
-      <class name="testng.tests.TgTest">
-        <methods>
-          <include name="cosTest" invocation-numbers="0 1 2"/>
-          <include name="before"/>
-          <include name="after"/>
-        </methods>
-      </class> <!-- testng.tests.TgTest -->
-      <class name="testng.tests.CosTest">
+      <class name="testng.tests.SqrtTest">
         <methods>
           <include name="before"/>
           <include name="after"/>
-          <include name="cosTest" invocation-numbers="0 1 2"/>
+          <include name="sqrtTest" invocation-numbers="2"/>
         </methods>
-      </class> <!-- testng.tests.CosTest -->
-      <class name="testng.tests.CtgTest">
-        <methods>
-          <include name="before"/>
-          <include name="after"/>
-          <include name="ctgTest" invocation-numbers="0 1 2"/>
-        </methods>
-      </class> <!-- testng.tests.CtgTest -->
+      </class> <!-- testng.tests.SqrtTest -->
     </classes>
-  </test> <!-- Test classes for trigonometric methods(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Test classes for arithmetic methods(failed) -->
+</suite> <!-- Failed suite [Arithmetic methods] -->
